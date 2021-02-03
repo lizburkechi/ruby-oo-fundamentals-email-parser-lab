@@ -2,3 +2,22 @@
 # emails. The parse method on the class should separate them into
 # unique email addresses. The delimiters to support are commas (',')
 # or whitespace (' ').
+
+# regex-> (/\s+|,\s*/)
+
+
+require 'pry'
+
+
+class EmailAddressParser("email_addresses")
+
+    def
+        email_addresses.uniq
+    end
+
+
+end
+
+binding.pry
+
+puts 'hi'
